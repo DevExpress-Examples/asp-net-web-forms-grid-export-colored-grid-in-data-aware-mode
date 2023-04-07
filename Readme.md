@@ -36,7 +36,7 @@ void ExportOptions_CustomizeCell(DevExpress.Export.CustomizeCellEventArgs ea) {
 
 ## Files to Review
 
-* [Default.aspx.cs](./CS/Default.aspx.cs#L25-L38) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx.cs](./CS/Default.aspx.cs#L22-L33) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 * [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 
 ## Documentation
