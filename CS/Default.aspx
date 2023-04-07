@@ -11,23 +11,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <dx:ASPxButton ID="ASPxButton1" runat="server" Text="Export" OnClick="ASPxButton1_Click" />
-            <dx:ASPxGridView ID="ASPxGridView1" runat="server" ClientInstanceName="grid" OnHtmlDataCellPrepared="ASPxGridView1_HtmlDataCellPrepared"
-                KeyFieldName="ProductID" AutoGenerateColumns="False">
+            <dx:ASPxGridView ID="ASPxGridView1" runat="server" KeyFieldName="ProductID" 
+                OnHtmlDataCellPrepared="ASPxGridView1_HtmlDataCellPrepared" AutoGenerateColumns="False">
                 <Columns>
-                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True" VisibleIndex="0">
-                        <EditFormSettings Visible="False" />
+                    <dx:GridViewDataTextColumn FieldName="ProductID" ReadOnly="True">
                     </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="ProductName" VisibleIndex="1">
+                    <dx:GridViewDataTextColumn FieldName="ProductName" >
                     </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitPrice" VisibleIndex="2">
+                    <dx:GridViewDataTextColumn FieldName="UnitPrice" >
                     </dx:GridViewDataTextColumn>
-                    <dx:GridViewDataTextColumn FieldName="UnitsOnOrder" VisibleIndex="3">
+                    <dx:GridViewDataTextColumn FieldName="UnitsOnOrder" >
                     </dx:GridViewDataTextColumn>
                 </Columns>
             </dx:ASPxGridView>
-            <dx:ASPxGridViewExporter ID="ASPxGridViewExporter1" runat="server" GridViewID="ASPxGridView1" />
-
+            <dx:ASPxButton ID="ASPxButton1" runat="server" Text="Export" OnClick="ASPxButton1_Click" />
         </div>
     </form>
 </body>

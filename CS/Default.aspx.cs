@@ -18,11 +18,11 @@ public partial class _Default : System.Web.UI.Page
     protected void ASPxButton1_Click(object sender, EventArgs e)
     {
         var exportOptions = new XlsxExportOptionsEx();
-        exportOptions.CustomizeCell += exportOptions_CustomizeCell;
-        ASPxGridViewExporter1.WriteXlsxToResponse(exportOptions);
+        exportOptions.CustomizeCell += ExportOptions_CustomizeCell;
+        ASPxGridView1.ExportXlsxToResponse(exportOptions);
     }
 
-    void exportOptions_CustomizeCell(DevExpress.Export.CustomizeCellEventArgs ea)
+    void ExportOptions_CustomizeCell(DevExpress.Export.CustomizeCellEventArgs ea)
     {
         if (ea.ColumnFieldName != "UnitsOnOrder" || ea.AreaType != DevExpress.Export.SheetAreaType.DataArea) return;
         int cellValue = 0;
