@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # ASPxGridView - How to export a colored grid when the Data Aware export mode is used
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t262239/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534107/)**
 <!-- run online end -->
 
 
