@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to export a colored grid in Data Aware export mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128534107/)**
-<!-- run online end -->
 
 This example shows how to color the exported grid when Data Aware export mode is used.
 
