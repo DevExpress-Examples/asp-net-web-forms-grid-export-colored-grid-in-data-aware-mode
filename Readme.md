@@ -50,7 +50,7 @@ void ExportOptions_CustomizeCell(DevExpress.Export.CustomizeCellEventArgs ea) {
 * [Grid View for MVC - How to export a colored grid in Data Aware export mode](https://github.com/DevExpress-Examples/asp-net-mvc-grid-export-colored-grid-in-data-aware-mode)
 * [Grid View for MVC - How to export a colored grid in WYSIWYG export mode](https://github.com/DevExpress-Examples/asp-net-mvc-grid-export-colored-grid-in-wysiwyg-mode)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-export-colored-grid-in-data-aware-mode&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-export-colored-grid-in-data-aware-mode&~~~was_helpful=no)
 
